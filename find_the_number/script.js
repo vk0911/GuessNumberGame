@@ -15,8 +15,8 @@ while (true) {
 	if (findNumber === guessNumber) {
 		alert("Congratulation!"); 
 	} else if (findNumber > guessNumber) {
-		alert("Your number is bigger that guessNumber, Try gain");
+		alert("Your number is bigger that guessNumber, Try again");
 	} else { 
-		alert("Your number is smaller that guessNumber, Try gainn");
+		alert("Your number is smaller that guessNumber, Try again");
 	}
 }
